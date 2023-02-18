@@ -1,0 +1,38 @@
+.navbar_container {
+ width: 1920px;
+ height: 70px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ border-bottom: 1px solid #466362;
+}
+
+.logo {
+ margin-left: 40px;
+ font-size: 24px;
+ color: #F6BD60;
+ font-weight: bold;
+ font-family: 'Cinzel', serif;
+}
+
+.list_ul {
+ display: flex;
+ align-items: center;
+}
+
+.navigate {
+ margin: 100px;
+ padding: 120px;
+ color: #466362;
+ font-weight: 600;
+}
+
+.sign_btn {
+ width: 150px;
+ height: 40px;
+ background-color: #5D576B;
+ color: white;
+ border-radius: 10px;
+ margin-right: 80px;
+ font-size: 15px;
+}
