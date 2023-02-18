@@ -1,10 +1,11 @@
+/* The CSS code for the navbar. */
 .navbar_container {
  width: 1920px;
  height: 70px;
  display: flex;
  align-items: center;
  justify-content: space-between;
- border-bottom: 1px solid #466362;
+ margin-bottom: 15px;
 }
 
 .logo {
@@ -15,24 +16,98 @@
  font-family: 'Cinzel', serif;
 }
 
-.list_ul {
+.list {
  display: flex;
  align-items: center;
 }
 
-.navigate {
+.nav_link {
  margin: 100px;
  padding: 120px;
  color: #466362;
  font-weight: 600;
 }
 
+.nav_link:hover {
+ color: #F6BD60;
+ transition: 0.2s;
+}
+
 .sign_btn {
  width: 150px;
  height: 40px;
- background-color: #5D576B;
- color: white;
  border-radius: 10px;
  margin-right: 80px;
  font-size: 15px;
+ border-color: #F6BD60;
+ background-color: #466362;
+ color: white;
+}
+
+/* The CSS code for the banner. */
+.banner_container {
+ width: 1720px;
+ height: 852px;
+ background-color: #E7E6E6;
+ margin: 0 auto;
+ border-radius: 20px;
+ position: relative;
+}
+
+.banner_title {
+ width: 474px;
+ height: 441px;
+ display: flex;
+ position: absolute;
+ margin: 80px 110px;
+}
+
+.banner_title h1 {
+ font-size: 90px;
+ display: flex;
+ align-items: column;
+ letter-spacing: 5px;
+ line-height: 1.2;
+ background-color: #F6BD60;
+ border-radius: 261px 155px 384px 16px;
+}
+
+.banner_title h1:hover {
+ color: #ED6A5A;
+ background-color: #466362;
+ transition: 0.6s;
+}
+
+.banner_description {
+ width: 490px;
+ display: flex;
+ position: absolute;
+ margin: 543px 110px;
+ font-size: 18px;
+ letter-spacing: 2px;
+ font-weight: 600;
+}
+
+.shop_button {
+ width: 150px;
+ height: 50px;
+ position: absolute;
+ margin: 50px 320px;
+ font-size: 20px;
+ border-radius: 10px;
+ border-color: #F6BD60;
+ background-color: #466362;
+ color: white;
+}
+
+.shop_button:hover {
+ width: 152px;
+ height: 52px;
+ transition: width 8s linear 1s;
+
+}
+
+.banner_image {
+ margin: 64px 804px;
+ position: absolute;
 }
