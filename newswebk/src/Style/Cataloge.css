@@ -1,0 +1,74 @@
+.catalog_container {
+ width: 100%;
+ height: 856px;
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.scroll_box {
+ width: 1638px;
+ height: 767px;
+ position: absolute;
+ margin: 0 auto;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.catalog_title {
+ width: 220px;
+ height: 20px;
+ font-size: 25px;
+ font-weight: bold;
+ padding: 10px;
+ background-color: #FFBF69;
+ border-radius: 470% 2970% 85% 494%;
+}
+.catalog_title:hover {
+ color:#FFBF69;
+ background-color: #466362;
+}
+
+.flex_container {
+ height: 650px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 30px;
+}
+
+.clothes_box {
+ width: 484px;
+ height:100%;
+ border-radius: 20px;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.clothes_img {
+ max-width: 100%;
+ height: 550px;
+ border-top-right-radius: 20px;
+ border-top-left-radius: 20px;
+ margin-bottom: 7px;
+}
+
+.explore_btn {
+ color: #5c554d;
+ margin-top: 7px;
+}
+
+.next_btn {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 350px;
+ font-size: 25px;
+ font-weight: bold;
+ width: 120px;
+ border-radius: 38px 159px 33px 152px;
+ background-color: #F6BD60;
+ color: #5c554d;
+}
+.next_btn:hover {
+ color:#ED6A5A;
+}
