@@ -17,7 +17,7 @@ const Home = () => {
         </div>
         <div className="banner_description">
           <p>Live for Influential and Innovative fashion!</p>
-          <button className="shop_button ">Shop Now</button>
+          <button className="shop_button">Shop Now</button>
         </div>
 
         <div className="banner_image">
