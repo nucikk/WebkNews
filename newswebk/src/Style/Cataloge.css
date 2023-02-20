@@ -51,7 +51,9 @@
  border-top-left-radius: 20px;
  margin-bottom: 7px;
 }
-
+.clothes_img:hover {
+ opacity: 0.8;
+}
 .explore_btn {
  color: #5c554d;
  margin-top: 7px;
